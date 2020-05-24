@@ -14,7 +14,16 @@ module.exports = {
     },
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: {
+          primary: 'var(--bg-background-primary)',
+        },
+        typo: {
+          primary: 'var(--text-typo-primary)',
+        }
+      }
+    },
   },
   variants: {},
   plugins: [],

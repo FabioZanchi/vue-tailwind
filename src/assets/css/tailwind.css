@@ -2,4 +2,14 @@
 
 @tailwind components;
 
+.theme-light {
+    --bg-background-primary:#f9f9f9 ;
+    --text-typo-primary: red;
+}
+
+.theme-dark {
+    --bg-background-primary: #333333;
+    --text-typo-primary: yellow;
+}
+
 @tailwind utilities;
